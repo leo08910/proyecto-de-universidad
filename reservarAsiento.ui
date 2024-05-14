@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>829</width>
+    <height>521</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#A1 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A1::hover {
+	background-color: #075c0e;
+}
+
+#A2 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A2::hover {
+	background-color: #075c0e;
+}
+
+#A3 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A3::hover {
+	background-color: #075c0e;
+}
+
+#A4 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A4::hover {
+	background-color: #075c0e;
+}
+
+#A5{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A5::hover {
+	background-color: #075c0e;
+}
+
+#A6{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A6::hover {
+	background-color: #075c0e;
+}
+
+#A7{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A7::hover {
+	background-color: #075c0e;
+}
+
+#A8{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A8::hover {
+	background-color: #075c0e;
+}
+
+#A9{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A9::hover {
+	background-color: #075c0e;
+}
+
+#A10{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A10::hover {
+	background-color: #075c0e;
+}
+
+#A11{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#A11::hover {
+	background-color: #075c0e;
+}
+
+#B1 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B1::hover {
+	background-color: #075c0e;
+}
+
+#B2 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B2::hover {
+	background-color: #075c0e;
+}
+
+#B3 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B3::hover {
+	background-color: #075c0e;
+}
+
+#B4 {
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B4::hover {
+	background-color: #075c0e;
+}
+
+#B5{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B5::hover {
+	background-color: #075c0e;
+}
+
+#B6{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B6::hover {
+	background-color: #075c0e;
+}
+
+#B7{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B7::hover {
+	background-color: #075c0e;
+}
+
+#B8{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B8::hover {
+	background-color: #075c0e;
+}
+
+#B9{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B9::hover {
+	background-color: #075c0e;
+}
+
+#B10{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B10::hover {
+	background-color: #075c0e;
+}
+
+#B11{
+	background-color: #0c9c18;
+	border-radius: 10%;
+	color: #ffffff;
+}
+#B11::hover {
+	background-color: #075c0e;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="busImage">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>70</y>
+      <width>671</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>media/busImage.webp</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B8">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A11">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A10">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B10">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A3">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A7">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B7">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B5">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B11">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A4">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A9">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B4">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A6">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="A8">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>170</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="B9">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>240</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Libre</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>370</y>
+      <width>183</width>
+      <height>90</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="aceptar">
+       <property name="minimumSize">
+        <size>
+         <width>181</width>
+         <height>51</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>181</width>
+         <height>51</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Inter SemiBold</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#aceptar {
+	background-color: #2e58ff;
+	border-radius: 10%;
+	color: #ffffff;
+	border: none;
+}
+
+#aceptar::hover {
+	background-color: #172e87;
+}</string>
+       </property>
+       <property name="text">
+        <string>Aceptar</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="botonIniciarViaje">
+       <property name="minimumSize">
+        <size>
+         <width>181</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>181</width>
+         <height>31</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Inter SemiBold</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#botonIniciarViaje {
+	background-color: #2e58ff;
+	border-radius: 10%;
+	color: #ffffff;
+	border: none;
+}
+
+#botonIniciarViaje::hover {
+	background-color: #172e87;
+}</string>
+       </property>
+       <property name="text">
+        <string>Iniciar viaje</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
